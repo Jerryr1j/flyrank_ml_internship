@@ -94,3 +94,18 @@ When you're ready, tell me and we'll move to Step 2: the portfolio structure (pa
 - Tech Stack: Python, Pandas, scikit-learn, Hugging Face Warehouse datasets, and Markdown for structured portfolio framing.
 - Next Named Piece:Week 04/05 Machine Learning Model Training & Evaluation Pipeline.
 - Reminder Set:Sunday evening calendar reminder set for ongoing portfolio updates.
+- # Portfolio Sustainability Note (Week 10)
+
+## 1. How to Add the Next Case Study
+Whenever I build a new feature or model, I will add it using the Week 2 three-beat shape:
+- The Problem: What data or technical challenge was tackled.
+- What I Did: The concrete steps (data contract, feature engineering, modeling).
+- What Came of It:The final honest result or metric.
+- Location: Added directly to my `work/case_studies.md` portfolio file.
+
+## 2. Next Piece of Work & Reminder
+- Next Named Piece: Week 04/05 Machine Learning Model Training & Evaluation Pipeline.
+- Reminder Set:I have set a recurring calendar reminder on my device for every Sunday evening to review, update, and push new portfolio iterations.
+
+## 3. Preservation of Build Context
+- I am keeping this Claude Project intact. Because it already contains my project identity and technical stack context, future portfolio updates will be a short, cheap conversation rather than a complete rebuild.
