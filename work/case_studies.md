@@ -77,4 +77,20 @@ Quick Self-Check
 Can I describe the whole system in one sentence? ("Inter, dark gray on white, blue only for links.")
 Is anything on the page there purely for decoration?
 Is spacing consistent between every section?
-When you're ready, tell me and we'll move to Step 2: the portfolio structure (page map, what each ML project page should contain, and how to frame your results). If you have a preferred tool (plain HTML, GitHub Pages, Notion, Framer), let me know and I'll tailor it.v
+When you're ready, tell me and we'll move to Step 2: the portfolio structure (page map, what each ML project page should contain, and how to frame your results). If you have a preferred tool (plain HTML, GitHub Pages, Notion, Framer), let me know and I'll tailor it.
+
+
+ FlyRank ML Internship - Capstone Launch & Story
+
+ 1. Live Portfolio URL
+- Live Site: https://jerryr1j.github.io/flyrank_ml_internship
+
+ 2. Honest Build-In-Public Story
+- What I Made: Built a clean, structured machine learning and data contract portfolio focusing on "Core first, AI second."
+- Where AI Helped: AI helped me structure my Python data validation logic and clean up my prompt iteration steps so I could focus purely on data framing and judgment.
+-What Broke & What I Learned: Initially, my data contract notebook failed on grain checks because of missing table slices, which taught me the critical importance of validating row uniqueness before building features.
+
+3. Stack & Next Steps
+- Tech Stack: Python, Pandas, scikit-learn, Hugging Face Warehouse datasets, and Markdown for structured portfolio framing.
+- Next Named Piece:Week 04/05 Machine Learning Model Training & Evaluation Pipeline.
+- Reminder Set:Sunday evening calendar reminder set for ongoing portfolio updates.
