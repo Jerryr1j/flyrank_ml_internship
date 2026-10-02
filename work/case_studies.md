@@ -109,3 +109,45 @@ Whenever I build a new feature or model, I will add it using the Week 2 three-be
 
 ## 3. Preservation of Build Context
 - I am keeping this Claude Project intact. Because it already contains my project identity and technical stack context, future portfolio updates will be a short, cheap conversation rather than a complete rebuild.
+
+
+
+
+# Ranking Signal Analysis: A Data-Driven Approach to Content Visibility
+
+## Abstract
+Understanding how search intelligence signals impact content visibility is critical for modern digital growth. This study investigates safe, aggregated search signals from the FlyRank dataset to identify key drivers of user engagement and visibility. Using a structured feature engineering and validation approach via DuckDB and scikit-learn, we analyze traffic movement patterns. The results demonstrate that specific structural content signals strongly correlate with sustained visibility. This paper outlines a reproducible workflow, practical recommendations for content refresh strategies, and an honest assessment of observational data limitations, providing a reliable decision-support framework.
+
+## 1. Introduction & Problem Statement
+In competitive search environments, teams often rely on guesswork rather than structured signals when deciding which pages to optimize or refresh. This work addresses the decision-support problem: *How can we systematically identify which content attributes drive engagement without over-indexing on volatile algorithmic shifts?* By establishing a transparent feature baseline, this research supports data-backed editorial and technical prioritization.
+
+## 2. Data
+- **Source Dataset:** Built on the FlyRank ML Internship dataset (gated warehouse release via Hugging Face).
+- **Scope & Window:** Aggregated metrics covering standard historical release windows.
+- **Exclusions:** To ensure public safety and compliance, all raw client domains, private URLs, user-level queries, and credentials were completely excluded from the analysis pipeline.
+
+## 3. Methodology
+- **Assumptions:** Search visibility is influenced by structural clarity, keyword alignment, and regular maintenance rather than isolated ranking hacks.
+- **Features & Labels:** Engineered features based on content length, structural headers, and historical impressions, mapped against engagement and click-through movement labels.
+- **Baseline & Validation:** Utilized a time-aware split to prevent data leakage, comparing a simple heuristic baseline against our structured ranking model.
+
+## 4. Results
+- **Model vs. Baseline:** The structured signal model outperformed the naive baseline on validation splits, showing clearer directional accuracy in predicting high-performing content archetypes.
+- **Visual Evidence:** Performance comparison charts and validation outputs are stored locally in the `work/figures/` directory.
+
+## 5. Limitations & Honest Framing
+- **Observational Nature:** The findings reflect correlation and directional patterns within safe bounds rather than direct causal impacts on search engine algorithms.
+- **Constraint:** Analysis is constrained by aggregated release data windows and excludes real-time programmatic fluctuations.
+
+## 6. Ranked Recommendations (Action Playbook)
+1. **Prioritize Structured Refreshes:** Focus editorial updates on pages showing stagnant impression growth rather than rewriting high-performing content.
+2. **Optimize Core Signals First:** Ensure clean heading hierarchies and metadata before experimenting with advanced structural changes ("Core first, AI second").
+3. **Establish Review Loops:** Implement recurring monthly audits using structured performance scores to prevent content decay.
+
+## 7. Reproducibility & Code Structure
+- All underlying data contracts, task framing steps, and modeling notebooks are documented and stored within the `work/` directory of the repository.
+- **Repository Link:** [FlyRank ML Internship Repository](https://github.com/Jerryr1j/flyrank_ml_internship)
+
+## 8. Acknowledgments & Data Credit
+Built on the FlyRank ML Internship dataset. Learn more at [FlyRank](https://flyrank.ai).
+
